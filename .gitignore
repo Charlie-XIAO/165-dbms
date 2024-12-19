@@ -1,0 +1,58 @@
+student_outputs
+generated_data
+outputs
+test_data
+
+# Object files
+obj/*
+*.o
+*.ko
+*.obj
+*.elf
+*.i
+*.s
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects
+*.so
+*.so.*
+
+# Executables
+*.out
+bin/*
+src/server
+src/client
+src/test_*
+!src/test_*.c
+src/project0/benchmark
+src/project0/main
+src/project0/test
+.deps
+
+# Rust
+rustsrc/target/
+
+# Data persistence
+.cs165_db/
+.cs165_db_rust/
+
+# IDE files
+tags
+Tags
+*.swp
+.vscode
+
+# VTune output
+r*hs
+
+# Perf output
+perf.data*
+
+# Cachegrind output
+cachegrind.out.*
+
+status.current_container_id
+tmp.prev_time
